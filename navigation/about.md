@@ -15,7 +15,7 @@ Flags are made using Wikipedia images
 
 <style>
     /* Style looks pretty compact, 
-       - grid-container and grid-item are referenced the code 
+       - grid- "flag": "f/fa/Flag_of_the_People's_Republic_of_China.svg", "greeting": "nihao ", "description": "China" - 13 years"}container and grid-item are referenced the code 
     */
     .grid-container {
         display: grid;
@@ -61,7 +61,7 @@ Flags are made using Wikipedia images
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "f/fa/Flag_of_the_People's_Republic_of_China.svg", "greeting": "nihao ", "description": "China" - 13 years"},
+        {"f/fa/Flag_of_the_People's_Republic_of_China.svg", "greeting": "nihao", "description": "China - 13 years"},
     ];
 
     // 3a. Consider how to update style count for size of container
@@ -116,4 +116,7 @@ Everything for me, as for many others, revolves around family and faith.
 Gallery of Pics, scroll to the right for more ...
 </comment>
 <div class="image-gallery">
+  <img src="{{site.baseurl}}/images/about/ME.jpg" alt="Image 1">
+  <img src="{{site.baseurl}}/images/about/Myfamily.jpg" alt="Image 2">
+
 </div>
