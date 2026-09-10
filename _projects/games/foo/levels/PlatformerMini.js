@@ -30,9 +30,9 @@ class PlatformerMini {
       this.playerY = 600; 
       this.playerWidth = 85; 
       this.playerHeight = 85; 
-      this.playerSpeedX = 0;
-      this.playerSpeedY = 0;
-      this.gravity = 0.5;
+      this.playerSpeedX = 10;
+      this.playerSpeedY = 10;
+      this.gravity = 0.3;
       this.groundY = 700;
       this.keysPressed = {};
       this.animationFrameId = null;
@@ -93,8 +93,8 @@ class PlatformerMini {
       // Reset game state
       this.playerX = 50;
       this.playerY = this.groundY - 50;
-      this.playerSpeedX = 0;
-      this.playerSpeedY = 0;
+      this.playerSpeedX = 10;
+      this.playerSpeedY = 10;
       this.keysPressed = {};
       this.canJump = true;
       this.itemCollected = false;

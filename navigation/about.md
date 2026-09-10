@@ -74,7 +74,7 @@ Flags are made using Wikipedia images
         gridItem.className = "grid-item";  // This class name connects the gridItem to the CSS style elements
         // Add "img" HTML tag for the flag
         var img = document.createElement("img");
-        img.src = http_source + location.flag; // concatenate the source and flag
+        img.src = http_source + encodeURI(location.flag); // encode the Wikimedia filename for the browser
         img.alt = location.flag + " Flag"; // add alt text for accessibility
 
         // Add "p" HTML tag for the description
@@ -118,5 +118,11 @@ Gallery of Pics, scroll to the right for more ...
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/ME.jpg" alt="Image 1">
   <img src="{{site.baseurl}}/images/about/Myfamily.jpg" alt="Image 2">
+  <img src="{{site.baseurl}}/images/about/Myfamily2.jpg" alt="Image 3">
+  <img src="{{site.baseurl}}/images/about/Myfamily3.jpg" alt="Image 4">
+  <img src="{{site.baseurl}}/images/about/Myfamily4.jpg" alt="Image 5">
+  <img src="{{site.baseurl}}/images/about/Myfamily5.jpg" alt="Image 6">
+  <img src="{{site.baseurl}}/images/about/Myfamily6.jpg" alt="Image 7">
+  <img src="{{site.baseurl}}/images/about/Myfamily7.jpg" alt="Image 8">
 
 </div>
