@@ -30,8 +30,8 @@ class PlatformerMini {
       this.playerY = 600; 
       this.playerWidth = 85; 
       this.playerHeight = 85; 
-      this.playerSpeedX = 10;
-      this.playerSpeedY = 10;
+      this.playerSpeedX = 30;
+      this.playerSpeedY = 30;
       this.gravity = 0.3;
       this.groundY = 700;
       this.keysPressed = {};
